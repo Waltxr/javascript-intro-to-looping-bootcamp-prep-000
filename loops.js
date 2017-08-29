@@ -19,7 +19,7 @@ function whileLoop(number) {
 function doWhileLoop(array) {
   do {
     array.pop();
-  } while (array.length > 0 && function maybeTrue() {
+  } while (array.length > 0 || function maybeTrue() {
   return Math.random() >= 0.5
 });
   return array
